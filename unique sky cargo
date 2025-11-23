@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="ps">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Unique Sky Movers</title>
+  <style>
+    body {
+      font-family: sans-serif;
+      background: #f5f5f5;
+      margin: 0;
+      padding: 0;
+    }
+    header {
+      background: #1a73e8;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+    nav {
+      background: #0f5fcc;
+      padding: 10px;
+      text-align: center;
+    }
+    nav a {
+      color: white;
+      margin: 0 15px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    .hero {
+      padding: 50px;
+      text-align: center;
+      background: white;
+      margin: 20px;
+      border-radius: 10px;
+    }
+    .services {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 20px;
+      margin: 20px;
+    }
+    .service-box {
+      background: white;
+      padding: 20px;
+      width: 280px;
+      border-radius: 10px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+      text-align: center;
+    }
+    footer {
+      background: #1a73e8;
+      padding: 20px;
+      color: white;
+      text-align: center;
+      margin-top: 40px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <img src="/mnt/data/logo.jpg" alt="Unique Sky Movers Logo" style="width:180px; margin-bottom:10px;" />
+    <h1>Unique Sky Movers Cargo</h1>
+    <p>نړيوال کارګو او لوجستیکي خدمات – له افغانستان څخه ټوله نړۍ ته</p>
+  </header>
+
+  <nav>
+    <a href="#home">کور</a>
+    <a href="#services">خدمات</a>
+    <a href="#contact">اړیکې</a>
+  </nav>
+
+  <section class="hero" id="home">
+    <h2>Unique Sky Movers ته ښه راغلاست</h2>
+    <p>موږ دلته تاسو ته نړيوال کارګو، ترانزیټ، او لوجستيکي خدمات وړاندې کوو. ستاسو مالونه په خوندي، چټک او مسلکي توګه نړۍ هر ځای ته لېږو.. تاسو کولی شئ زما سره اړیکه ونیسئ او خپل کاروبار لپاره خدمات ترلاسه کړئ.</p>
+  </section>
+
+  <section class="hero" id="quote">
+    <h2>د نرخ غوښتنه (Get a Quote)</h2>
+    <p>دلته تاسو کولی شئ د خپل بار لپاره د نرخ غوښتنه وکړئ. مهرباني وکړئ د بار تفصیل د ایکسل فایل په بڼه اپلوډ کړئ.</p>
+    <p><strong>Excel فایل اپلوډ:</strong></p>
+    <input type="file" accept=".xlsx,.xls" />
+  </section>
+
+  <section class="services" id="services">
+    <div class="service-box">
+      <h3>Air Cargo – هوايي کارګو</h3>
+      <p>موږ تحایف، تجارتي اموال او نور بارونه د نړۍ هر هوايي ډګر ته انتقالوو.</p>
+    </div>
+    <div class="service-box">
+      <h3>Sea Freight – سمندري کارګو</h3>
+      <p>ستاسو بار په خوندي او اقتصادي ډول د سمندر له لارې ټوله نړۍ ته رسوو.</p>
+    </div>
+    <div class="service-box">
+      <h3>Road Transport – ځمکنی ترانزیت</h3>
+      <p>له افغانستان څخه پاکستان، ایران، دوبۍ، منځنۍ آسیا او نورو هېوادونو ته بار انتقال.</p>
+    </div>
+    <div class="service-box">
+      <h3>Worldwide Delivery – د نړی هر ځای ته لېږد</h3>
+      <p>موږ اموال، تحایف، تجارتي اموال او هر ډول قانوني بار د نړۍ هر څنډې ته رسولو توان لرو.</p>
+    </div>
+  </section>
+
+  <footer id="contact">
+    <h3>اړیکې</h3>
+    <p>واتس‌اپ: +93XXXXXXXXX (ستاسو شمېره)</p>
+    <p>ایمیل: info@uniqueskymovers.com</p>
+  </footer>
+</body>
+</html>
